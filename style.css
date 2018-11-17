@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+    background: url("img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+select.input-command {
+    height: 46px;
+    line-height: 46px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-option {
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input-form {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: black;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input-form::-moz-placeholder {
+    color: #999;
+    opacity: 55;
+}
+
+.input-command {
+    font-size: 18px;
+    height: 28px;
+    line-height: 1.33;
+    padding: 10px 16px;
+}
+
+.wrapper {
+    padding: 0;
+    margin: -136px auto 0;
+}
+
+.wrapper img {
+    width: 60%;
+}
+
+.robux {
+    background: url("img/robux.png") no-repeat scroll 10px center white;
+    padding-left: 40px !important;
+}
+
+.tix {
+    background: url("img/tix.png") no-repeat scroll 10px center white;
+    padding-left: 40px !important;
+}
+
+.buttonstyle {
+    border-radius: 6px;
+    background-color: #111c30;
+    border: none;
+    color: white;
+    padding: 16px 33px;
+    display: inline-block;
+    font-size: 33px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#shield{
+    margin-bottom: 5px;
+}
+
+#progressbarcontainer {
+    display: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#progressbar {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: #111c30;
+}
+
+#progressbarlabel {
+    line-height: 54px;
+    text-align: center;
+    color: white;
+}
+
+#main-tool {
+    background: #eeeeee;
+    max-width: 500px;
+    margin: 100px auto 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#steps {
+    background: #eeeeee;
+    max-width: 500px;
+    margin: 100px auto 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#comment {
+    background: #eeeeee;
+    max-width: 500px;
+    margin: 100px auto 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#verifybg {
+    height: 0%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.3);
+}
+
+#verify {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: relative;
+    background-color: #207189;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+}
+
+#verifycontent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#gen1 {
+    display: none;
+}
+
+#gen2 {
+    display: none;
+}
+
+#gen3 {
+    display: none;
+}
+
+#gen4 {
+    display: none;
+}
+
+#gen5 {
+    display: none;
+}
+
+#gen6 {
+    display: none;
+}
+
+#gen7 {
+    display: none;
+}
+
+#addrobuxbarcontainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#addrobuxbar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background: #111c30;
+}
+
+#addrobuxbarlabel {
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#addtixbarcontainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#addtixbar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background: #111c30;
+}
+
+#addtixbarlabel {
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#mobileverify {
+    display: inline;
+}
+
+#desktopverify {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+        #mobileverify {
+            display: none;
+        }
+
+        #desktopverify {
+            display: block;
+        }
+
+        #verify {
+            width: 30%;
+        }
+}
+
+@media screen and (max-width: 1199px) {
+        #mobileverify {
+            display: block;
+        }
+
+        #desktopverify {
+            display: none;
+        }
+
+        #verify {
+            width: 90%;
+        }
+}
+
